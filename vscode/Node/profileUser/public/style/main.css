@@ -1,0 +1,72 @@
+h1 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34px;
+    margin: 20px;
+    text-align: center
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    color: #f4f1ed;
+}
+
+p {
+    color: antiquewhite;
+    margin: 20px;
+}
+
+/*el cuerpo del todo*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-image: url(https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2020/03/css-background-image-linear-gradient.png?fit=1048%2C670&ssl=1);
+    background-size: cover;
+
+}
+
+.profileForm {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.profileForm label {
+    margin-bottom: 10px;
+}
+
+.profileForm input {
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+/*es el boton*/
+.profileForm button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 22px;
+}
+
+.profileForm button:hover {
+    background-color: #45a049;
+}
+
+.profileForm button:active {
+    background-color: #3e8e41;
+}
+
+/*es el field, el recuadro*/
+.profileForm fieldset {
+    background-color: rgb(201, 183, 158);
+    color: rgb(0, 0, 0);
+    border-color: rgb(0, 0, 255), 50%;
+    margin: 20px;
+    border-radius: 10px;
+    width: 400px;
+    ;
+}

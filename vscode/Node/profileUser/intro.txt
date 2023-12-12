@@ -1,0 +1,50 @@
+project-root/
+|-- node_modules/
+|-- src/
+|   |-- controllers/
+|   |-- models/
+|   |-- routes/
+|   |-- services/
+|   |-- utils/
+|-- tests/
+|-- config/
+|-- migrations/
+|-- seeders/
+|-- public/
+|-- views/
+|-- .gitignore
+|-- package.json
+|-- README.md
+|-- app.js (o index.js)
+
+La idea es tener esto como norma general
+
+
+node_modules: Aquí se instalan las dependencias del proyecto (no se almacena en el repositorio, ya que se puede generar dinámicamente utilizando npm install).
+
+src: Contiene el código fuente de la aplicación.
+
+controllers: Controladores que manejan las solicitudes del cliente y gestionan la lógica de negocio.
+models: Definiciones de modelos de base de datos.
+routes: Archivos que manejan las rutas y las funciones de manejo de solicitudes.
+services: Lógica de negocio adicional que no pertenece a los controladores.
+utils: Utilidades y funciones auxiliares.
+tests: Pruebas para la aplicación.
+
+config: Configuraciones del proyecto, por ejemplo, configuraciones de base de datos o configuraciones de entorno.
+
+migrations: Archivos que describen cómo evolucionar la base de datos a lo largo del tiempo.
+
+seeders: Archivos que contienen datos de ejemplo para poblar la base de datos.
+
+public: Archivos estáticos que se sirven públicamente (imágenes, hojas de estilo, scripts del lado del cliente, etc.).
+
+views: Plantillas si estás utilizando un motor de vistas como EJS o Handlebars.
+
+.gitignore: Archivo que especifica los archivos y carpetas que deben ignorarse al realizar seguimiento con Git.
+
+package.json: Archivo de configuración de Node.js que incluye información sobre el proyecto y sus dependencias.
+
+README.md: Documentación del proyecto.
+
+app.js (o index.js): Archivo principal que inicia la aplicación.
